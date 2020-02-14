@@ -10,6 +10,6 @@ public class LoginController {
 	@RequestMapping(value = "/login.do", method = RequestMethod.POST)
 	public String login()
 	{
-		return "index";
+		return "기능3";
 	}
 }
